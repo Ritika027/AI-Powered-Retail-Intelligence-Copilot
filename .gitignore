@@ -1,0 +1,110 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables (IMPORTANT)
+# =========================
+.env
+.env.*
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# SQLite Databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# Example:
+chatbot.db
+
+# =========================
+# DuckDB Databases
+# =========================
+*.duckdb
+
+# Example:
+retail.duckdb
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Cache
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Build files
+# =========================
+build/
+dist/
+
+# =========================
+# Uploaded datasets (optional)
+# =========================
+data/
+
+# Ignore large CSV datasets if not sharing
+*.csv
+
+# =========================
+# Secrets / API Keys
+# =========================
+secrets.json
+credentials.json
+
+data/
+*.csv
