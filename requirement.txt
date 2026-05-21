@@ -75,3 +75,14 @@ urllib3==2.5.0
 watchdog==6.0.0
 xxhash==3.5.0
 zstandard==0.23.0
+streamlit
+python-dotenv
+duckdb
+pandas
+openai
+
+langchain
+langchain-core
+langchain-openai
+langgraph
+langgraph-checkpoint-sqlite
